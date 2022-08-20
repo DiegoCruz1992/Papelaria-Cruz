@@ -1,0 +1,82 @@
+/* ==== RESET ==== */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* colors */
+  --hue: 159;
+  /* HSL color mode */
+  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+  --title-color: hsl(var(--hue) 41% 10%);
+  --text-color: hsl(0 0% 46%);
+  --text-color-hover: hsl(159, 48%, 42%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 0% 96%);
+
+  /* fonts */
+  --title-font-size: 1.875rem;
+  --subtitle-font-size: 1rem;
+
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DM Sans', sans-serif;
+}
+
+/*===  BASE ==== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 300 1rem var(--body-font);
+  color: var(--text-color);
+  background: var(--body-color);
+}
+
+/* ==== header ==== */
+.menu{
+  padding: 0 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+width: 12rem;
+height: 12rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+
+nav ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  
+}
+nav ul li a { 
+  text-decoration: none;
+  color: var(--title-color);
+
+  transition: color 0.2s;
+  position: relative;
+}
+
+nav ul li a:hover{
+  opacity: 1;
+  color: var(--text-color-hover);
+}
+
+/* ==== header ==== */
+
+
