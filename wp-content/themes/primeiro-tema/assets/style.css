@@ -1,3 +1,21 @@
+<<<<<<< HEAD
 h1 {
   color: red;
+=======
+header {
+  background-color: red;
+}
+
+main {
+  background-color: blue;
+}
+
+footer {
+  background-color: green;
+}
+
+.banner {
+  background-color: purple;
+  color: white;
+>>>>>>> 2f3dc3af87965c6e8478ecc2f18051192e31f691
 }

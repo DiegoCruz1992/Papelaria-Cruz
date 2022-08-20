@@ -10,4 +10,10 @@
 </head>
 
 <body>
+<<<<<<< HEAD
 
+=======
+  <header>
+    <h1>Aqui é o header!</h1>
+  </header>
+>>>>>>> 2f3dc3af87965c6e8478ecc2f18051192e31f691
