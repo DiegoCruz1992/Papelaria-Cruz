@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <nav class="container">
+    <nav>
       <div class="menu">
         <!-- <img src="<?php //echo get_theme_file_uri('assets/img/logo2.png')
                         ?>" alt="logo papelaria Cruz"> -->
