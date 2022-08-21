@@ -14,7 +14,9 @@
   <header>
     <nav class="container">
       <div class="menu">
-       <img src="<?php echo get_theme_file_uri('assets/img/logo2.png')?>" alt="logo papelaria Cruz">
+        <!-- <img src="<?php //echo get_theme_file_uri('assets/img/logo2.png')
+                        ?>" alt="logo papelaria Cruz"> -->
+        <img src="<?= get_field('logo_header'); ?>" alt="logo papelaria Cruz">
         <ul>
           <li><a class="title" href="#home">Inicio</a></li>
           <li><a class="title" href="#about">Sobre</a></li>
