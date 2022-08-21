@@ -1,5 +1,5 @@
 <section>
-  <div class="banner">
-    <h2>Aqui é o banner!</h2>
+  <div class="banners">
+  <img class="banner" src="<?php echo get_theme_file_uri('assets/img/banner-01.webp')?>" alt="logo papelaria Cruz">
   </div>
 </section>
