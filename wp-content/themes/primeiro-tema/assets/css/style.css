@@ -138,7 +138,7 @@ nav ul li a:hover {
   text-align: center;
   margin-bottom: 4rem;
 }
-.video video {
+.video iframe {
   width: 100%;
   height: 30rem;
 }
@@ -148,12 +148,22 @@ nav ul li a:hover {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 4rem;
+  height: 620px;
 }
 
-.products img {
-  width: 100%;
+.field_products{
+  position: relative;
+}
+
+.field_img_products {
   height: 500px;
 }
+
+.field_img_products img {
+ height: 100%;
+ width: 100%;
+}
+
 .products h4 {
   margin: 5px 0;
   font-size: 1.5rem;
@@ -168,4 +178,7 @@ nav ul li a:hover {
   font-size: 1rem;
   color: #fc914a;
   margin-top: 10px;
+
+  position: absolute;
+  bottom: 0;
 }

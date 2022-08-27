@@ -1,4 +1,4 @@
-<section>
+<section id="about">
   <div class="about">
     <div class="about-text">
       <h2><?= get_field('titulo_about'); ?></h2>

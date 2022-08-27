@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer">
   <h1>Aqui é o footer!</h1>
 </footer>
 
