@@ -48,6 +48,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  
 }
 
 .img-logo {
@@ -78,6 +80,8 @@ nav ul li a {
 nav ul li a:hover {
   opacity: 1;
   color: var(--text-color-hover);
+
+  border-bottom: 2px solid var(--text-color-hover);
 }
 
 /* ==== Banner ==== */
@@ -181,4 +185,115 @@ nav ul li a:hover {
 
   position: absolute;
   bottom: 0;
+}
+/* ==== Footer ==== */
+
+footer{
+  background-color: #94CAB7;
+  width: 100%;
+  height: 12rem;
+  margin-top: 10rem;
+  text-align: center;
+  position: relative;
+}
+footer p{
+  color: #ffff;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+footer span {
+  color: #ffff;
+  font-size: 1rem;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  height: 8rem;
+  border-bottom: 1px solid rgb(248, 247, 247);
+}
+
+.nav-contact {
+  width: 50%;
+}
+
+.nav-contact ul{
+  display: flex;
+  font-size: 1rem;
+  list-style: none;
+  margin-left: 4rem;
+  color: #ffff;
+}
+
+.nav-contact ul li{
+  padding-right: 1rem;
+  
+}
+
+.nav-contact ul li a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.nav-contact ul li a:hover {
+  color: rgb(230, 225, 225);
+  border-bottom: 1px solid rgb(230, 225, 225);
+}
+
+.nav-icons {
+  display: flex;
+  width: 50%;
+  justify-content: end;
+  padding-right: 5rem;
+}
+
+.nav-icons ul{
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+.nav-icons ul li a i {
+  color: #ffff;
+  padding-left: 2rem;
+  font-size: 1.3rem;
+}
+
+.nav-icons ul li a i:hover {
+  transform: scale(120%);
+  transition-duration: 700ms;
+}
+
+/* ==== Swiper ==== */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
