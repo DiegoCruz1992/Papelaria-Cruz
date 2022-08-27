@@ -21,7 +21,7 @@
           <li><a class="title" href="#home">Inicio</a></li>
           <li><a class="title" href="#about">Sobre</a></li>
           <li><a class="title" href="#products">Produtos</a></li>
-          <li><a class="title" href="#contact">Contato</a></li>
+          <li><a class="title" href="#footer">Contato</a></li>
         </ul>
       </div>
     </nav>
